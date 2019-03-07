@@ -1,0 +1,16 @@
+{
+  "name": "closures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "check": "es-check es5 ./main.js",
+    "start": "serve"
+  },
+  "author": "Joseph Kohlmann <kohlmannj@mac.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "es-check": "^5.0.0",
+    "serve": "^10.1.2"
+  }
+}
