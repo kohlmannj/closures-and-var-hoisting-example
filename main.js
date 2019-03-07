@@ -1,10 +1,10 @@
 // Get our "clickable" elements
-let clickableElements = document.querySelectorAll('.clickable');
+var clickableElements = document.querySelectorAll('.clickable');
 
 for (var i = 0; i < clickableElements.length; i++) {
-  let index = i;
-  let el = clickableElements[i];
-  let text = el.textContent;
+  var index = i;
+  var el = clickableElements[i];
+  var text = el.textContent;
 
   el.addEventListener('click', function() {
     // Example Output: `Element 1 reads, "Foo"`
